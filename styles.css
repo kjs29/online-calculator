@@ -18,6 +18,7 @@ body {
     padding: 1.5rem;
     background-color:rgb(62, 62, 62);
     border-radius: 1rem;
+    box-shadow: 0.5rem 1rem;
 }
 
 .output {
@@ -38,9 +39,29 @@ button {
     width: 10rem;
     margin: 1rem;
     border-radius: 2rem;
+    cursor: pointer;
+}
+
+.input button {
     border: 1px solid rgb(129, 129, 129);
+}
+
+.input button:hover {
+    background-color: rgb(116, 116, 116);
+}
+
+.input button:active {
+    background-color: rgb(129, 129, 129);
 }
 
 .output button {
     background-color: orange;
+}
+
+.output button:hover {
+    background-color: rgb(221, 146, 8);
+}
+
+.output button:active {
+    background-color: orange;    
 }
